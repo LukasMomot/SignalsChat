@@ -1,0 +1,22 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SignalsChat", "SignalsChat\SignalsChat.csproj", "{C5245C1F-C755-4183-95B1-B20D0DE42A54}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DebugClient", "DebugClient\DebugClient.csproj", "{30815FD5-CC8A-48F7-B847-5EFF2820C54A}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{C5245C1F-C755-4183-95B1-B20D0DE42A54}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C5245C1F-C755-4183-95B1-B20D0DE42A54}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C5245C1F-C755-4183-95B1-B20D0DE42A54}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C5245C1F-C755-4183-95B1-B20D0DE42A54}.Release|Any CPU.Build.0 = Release|Any CPU
+		{30815FD5-CC8A-48F7-B847-5EFF2820C54A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{30815FD5-CC8A-48F7-B847-5EFF2820C54A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{30815FD5-CC8A-48F7-B847-5EFF2820C54A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{30815FD5-CC8A-48F7-B847-5EFF2820C54A}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+EndGlobal
