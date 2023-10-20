@@ -28,7 +28,6 @@ public class ChatPingService : BackgroundService
             };
             
             await _hubContext.Clients.All.SendAsync("ReceiveCurrentClients", currentClientsMsg);
-            // get list of all connected clients form hub context
             await Task.Delay(5000, stoppingToken);
         }
     }

@@ -81,6 +81,9 @@
             "projectReferences": {
               "/Users/lukaszmomot/RiderProjects/SignalsChat/Commons/Commons.csproj": {
                 "projectPath": "/Users/lukaszmomot/RiderProjects/SignalsChat/Commons/Commons.csproj"
+              },
+              "/Users/lukaszmomot/RiderProjects/SignalsChat/SignalsChat/SignalsChat.csproj": {
+                "projectPath": "/Users/lukaszmomot/RiderProjects/SignalsChat/SignalsChat/SignalsChat.csproj"
               }
             }
           }
@@ -112,6 +115,80 @@
           "assetTargetFallback": true,
           "warn": true,
           "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/7.0.102/RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "/Users/lukaszmomot/RiderProjects/SignalsChat/SignalsChat/SignalsChat.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "/Users/lukaszmomot/RiderProjects/SignalsChat/SignalsChat/SignalsChat.csproj",
+        "projectName": "SignalsChat",
+        "projectPath": "/Users/lukaszmomot/RiderProjects/SignalsChat/SignalsChat/SignalsChat.csproj",
+        "packagesPath": "/Users/lukaszmomot/.nuget/packages/",
+        "outputPath": "/Users/lukaszmomot/RiderProjects/SignalsChat/SignalsChat/obj/",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "/Users/lukaszmomot/.nuget/NuGet/NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "net7.0"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net7.0": {
+            "targetAlias": "net7.0",
+            "projectReferences": {
+              "/Users/lukaszmomot/RiderProjects/SignalsChat/Commons/Commons.csproj": {
+                "projectPath": "/Users/lukaszmomot/RiderProjects/SignalsChat/Commons/Commons.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net7.0": {
+          "targetAlias": "net7.0",
+          "dependencies": {
+            "Microsoft.AspNetCore.OpenApi": {
+              "target": "Package",
+              "version": "[7.0.2, )"
+            },
+            "Microsoft.AspNetCore.SignalR.Client": {
+              "target": "Package",
+              "version": "[7.0.12, )"
+            },
+            "Swashbuckle.AspNetCore": {
+              "target": "Package",
+              "version": "[6.4.0, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.AspNetCore.App": {
+              "privateAssets": "none"
+            },
             "Microsoft.NETCore.App": {
               "privateAssets": "all"
             }

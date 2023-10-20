@@ -21,4 +21,18 @@ public class ChatHub : Hub
         ChatState.Clients.Remove(Context.ConnectionId);
         return base.OnDisconnectedAsync(exception);
     }
+    
+    public async Task SendMessage(string message)
+    {
+        var msg = new Message
+        {
+            Client = Context.ConnectionId,
+            TimeStamp = DateTime.Now,
+            Text = message
+        };
+        
+        ChatState.Messages.Add(msg);
+        
+        await Clients.All.SendAsync("ReceiveMessage", msg);
+    }
 }

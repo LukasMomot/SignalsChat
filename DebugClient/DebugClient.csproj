@@ -13,6 +13,7 @@
 
     <ItemGroup>
       <ProjectReference Include="..\Commons\Commons.csproj" />
+      <ProjectReference Include="..\SignalsChat\SignalsChat.csproj" />
     </ItemGroup>
 
 </Project>
