@@ -276,6 +276,16 @@
         "build": {
           "buildTransitive/net6.0/_._": {}
         }
+      },
+      "Commons/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v7.0",
+        "compile": {
+          "bin/placeholder/Commons.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/Commons.dll": {}
+        }
       }
     }
   },
@@ -706,10 +716,16 @@
         "system.threading.channels.nuspec",
         "useSharedDesignerContext.txt"
       ]
+    },
+    "Commons/1.0.0": {
+      "type": "project",
+      "path": "../Commons/Commons.csproj",
+      "msbuildProject": "../Commons/Commons.csproj"
     }
   },
   "projectFileDependencyGroups": {
     "net7.0": [
+      "Commons >= 1.0.0",
       "Microsoft.AspNetCore.SignalR.Client >= 7.0.12"
     ]
   },
@@ -737,7 +753,11 @@
       "frameworks": {
         "net7.0": {
           "targetAlias": "net7.0",
-          "projectReferences": {}
+          "projectReferences": {
+            "/Users/lukaszmomot/RiderProjects/SignalsChat/Commons/Commons.csproj": {
+              "projectPath": "/Users/lukaszmomot/RiderProjects/SignalsChat/Commons/Commons.csproj"
+            }
+          }
         }
       },
       "warningProperties": {

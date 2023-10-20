@@ -41,3 +41,5 @@
 /Users/lukaszmomot/RiderProjects/SignalsChat/SignalsChat/obj/Debug/net7.0/SignalsChat.pdb
 /Users/lukaszmomot/RiderProjects/SignalsChat/SignalsChat/obj/Debug/net7.0/SignalsChat.genruntimeconfig.cache
 /Users/lukaszmomot/RiderProjects/SignalsChat/SignalsChat/obj/Debug/net7.0/ref/SignalsChat.dll
+/Users/lukaszmomot/RiderProjects/SignalsChat/SignalsChat/bin/Debug/net7.0/Commons.dll
+/Users/lukaszmomot/RiderProjects/SignalsChat/SignalsChat/bin/Debug/net7.0/Commons.pdb

@@ -29,3 +29,5 @@
 /Users/lukaszmomot/RiderProjects/SignalsChat/DebugClient/obj/Debug/net7.0/DebugClient.pdb
 /Users/lukaszmomot/RiderProjects/SignalsChat/DebugClient/obj/Debug/net7.0/DebugClient.genruntimeconfig.cache
 /Users/lukaszmomot/RiderProjects/SignalsChat/DebugClient/obj/Debug/net7.0/ref/DebugClient.dll
+/Users/lukaszmomot/RiderProjects/SignalsChat/DebugClient/bin/Debug/net7.0/Commons.dll
+/Users/lukaszmomot/RiderProjects/SignalsChat/DebugClient/bin/Debug/net7.0/Commons.pdb

@@ -1,4 +1,6 @@
+using Commons.Messages;
 using Microsoft.AspNetCore.SignalR;
+using SignalsChat.State;
 
 namespace SignalsChat;
 
@@ -17,6 +19,16 @@ public class ChatPingService : BackgroundService
         while (!stoppingToken.IsCancellationRequested)
         {
             await _hubContext.Clients.All.SendAsync("ReceiveDebugMessage", "Ping!");
+            
+            //await _hubContext.Clients.All.SendAsync("ReceiveDebugMessage", $"There are {_hubContext.Clients.All.CountAsync().Result} clients connected.");
+            var currentClientsMsg = new CurrentClientsMessage()
+            {
+                TimeStamp = DateTime.Now,
+                Clients = ChatState.Clients.ToArray()
+            };
+            
+            await _hubContext.Clients.All.SendAsync("ReceiveCurrentClients", currentClientsMsg);
+            // get list of all connected clients form hub context
             await Task.Delay(5000, stoppingToken);
         }
     }
